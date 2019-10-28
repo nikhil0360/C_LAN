@@ -11,8 +11,8 @@ scanf("%f", &radius) ;
   
   else
   {
-   float area = 3.14*radius*radius;
-   printf("%.2f " , area ) ;
+   float area = 3.141592653589*radius*radius;
+   printf("%f " , area) ;
   }
  
  return 0 ;
